@@ -203,3 +203,37 @@ body{
     }
 }
 /*Navbar End*/
+
+/*Hero*/
+.hero{
+    width: 100%;
+    overflow-x: hidden;
+}
+.hero .hero-main{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.hero .hero-main img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    filter: blur(4px);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 10px var(--background);
+    padding: 10px;
+}
+
+.centered h3 {
+    margin: 0;
+}
+/*Hero End*/
